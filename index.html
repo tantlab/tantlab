@@ -1,16 +1,33 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Tantlab blog</title>
-</head>
-<body>
+<html lang="en" >
+  <head>
+    <title>TantLab blog</title>
 
-<h1>Danske politikeres brug af eksterne kilder på Facebook (2012–2018)</h1>
-<h2>Vi har undersøgt, hvilke nyheder partier og politikere deler på Facebook. Datasættet omfatter knap en halv million opslag fra 700 sider. Gå på opdagelse i sættet og find ud af hvilke historier, der bliver delt af hvilke politikere, og hvor historierne kommer fra.</h2>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
 
-  <script type='text/javascript' src='https://eu-west-1a.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1100px; height: 927px;'><object class='tableauViz' width='1100' height='927' style='display:none;'><param name='host_url' value='https%3A%2F%2Feu-west-1a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;teknoantropologisklaboratorium' /><param name='name' value='Pol_parties_v3&#47;Primrtdashboardtiled' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
-  
-<p>This is a paragraph.</p>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,400italic|Montserrat:400,700'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/angular-material.css"/>
+    <link rel="stylesheet" href="assets/app.css"/>
 
-</body>
+    <style type="text/css">
+        /**
+         * Hide when Angular is not yet loaded and initialized
+         */
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+          display: none !important;
+        }
+    </style>
+
+  </head>
+
+  <body ng-app="app" ng-cloak>
+
+    <div ng-view layout-fill layout="column"></div>
+
+    <script type='text/javascript' src='https://eu-west-1a.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1100px; height: 927px;'><object class='tableauViz' width='1100' height='927' style='display:none;'><param name='host_url' value='https%3A%2F%2Feu-west-1a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;teknoantropologisklaboratorium' /><param name='name' value='Pol_parties_v3&#47;Primrtdashboardtiled' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+  </body>
 </html>
