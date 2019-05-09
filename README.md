@@ -1,13 +1,15 @@
 # Welcome the techno-anthropological blog
 
+## Danske politikeres brug af eksterne kilder på Facebook (2012–2018)
+
+**Vi har undersøgt, hvilke nyheder partier og politikere deler på Facebook. Datasættet omfatter knap en halv million opslag fra 700 sider. Gå på opdagelse i sættet og find ud af hvilke historier, der bliver delt af hvilke politikere, og hvor historierne kommer fra.**
+
 
 
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
 # Header 1
 ## Header 2
@@ -22,9 +24,3 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
