@@ -1,0 +1,166 @@
+.general-panel-left {
+	width: 300px;
+}
+
+.general-panel-right {
+	overflow-y: auto;
+}
+
+.header {
+	padding: 12px;
+}
+
+.header img{
+	width: 128px;
+	height: 128px;
+}
+
+.header h1 {
+  margin: 12px 0px 0px 0px;
+  font-family: roboto, sans-serif;
+  font-weight: 300;
+}
+
+.header h3 {
+  margin: 0px;
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+}
+
+.main-message {
+	padding: 12px;
+  font-weight: 300;	
+}
+
+.settings-area {
+	padding-left: 4px;
+}
+
+.content-footer {
+	padding: 12px;
+}
+
+.content-footer img {
+	opacity: .2;
+	margin-left: 60px;
+	height: 128px;
+}
+
+.tools-grid md-grid-list {
+  margin: 8px;
+}
+
+.tools-grid md-grid-tile {
+	background-color: rgba(245, 245, 245, 1.0);
+  transition: all 400ms ease-out 50ms;
+}
+
+.tools-grid md-grid-tile-footer {
+	background: rgba(120, 120, 120, .1);
+}
+
+.tools-grid .grid-tile-content {
+	overflow: hidden;
+}
+
+.tools-grid .grid-tile-text {
+	z-index: 1;
+}
+
+.tools-grid .grid-tile-text img {
+	width: 64px;
+}
+
+.tools-grid .grid-tile-content .tool-name {
+	font-size: 1.25em;
+	margin: 3px;
+	padding: 3px 6px;
+	display: inline-table;
+	background-color: rgba(245, 245, 245, 1.0);
+	color: #666666;
+}
+.tools-grid .grid-tile-content.tool-tile:hover .tool-name {
+	background-color: rgba(255, 255, 255, 1.0);
+	color: #000000;
+}
+
+.tools-grid .grid-tile-content .tool-function {
+	font-size: 0.9em;
+	margin: 3px;
+	padding: 3px 6px;
+	display: inline-table;
+	background-color: #666666;
+	color: rgba(245, 245, 245, 1.0);
+}
+
+.tools-grid .grid-tile-content .tool-list li {
+	font-size: 0.9em;
+	margin: 3px;
+	background-color: rgba(245, 245, 245, 1.0);
+	color: #666666;
+}
+.tools-grid .grid-tile-content.tool-tile:hover .tool-list li {
+	background-color: rgba(255, 255, 255, 1.0);
+	color: #000000;
+}
+
+.tools-grid .grid-tile-content.tool-tile {
+	cursor: pointer;
+}
+
+.tools-grid .grid-tile-content:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .25;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-filter: blur(5px); /* Safari */
+    filter: blur(5px);
+
+ 				    transition: opacity .3s, .9s filter ease-out;
+		-webkit-transition: opacity .3s, .9s filter ease-out;
+		   -moz-transition: opacity .3s, .9s filter ease-out;
+		    -ms-transition: opacity .3s, .9s filter ease-out;
+		     -o-transition: opacity .3s, .9s filter ease-out;
+
+
+ }
+.tools-grid .grid-tile-content:hover:before {
+	opacity: .8;
+	-webkit-filter: blur(0px); /* Safari */
+    filter: blur(0px);
+}
+.tools-grid .grid-tile-content.img-hyphe:before {
+  background-image: url('../res/hyphe.png');
+}
+.tools-grid .grid-tile-content.img-table2net:before {
+  background-image: url('../res/table2net.png');
+}
+.tools-grid .grid-tile-content.img-seealsology:before {
+  background-image: url('../res/seealsology.png');
+}
+.tools-grid .grid-tile-content.img-manylines:before {
+  background-image: url('../res/manylines.png');
+}
+.tools-grid .grid-tile-content.img-sciencescape:before {
+  background-image: url('../res/sciencescape.png');
+}
+.tools-grid .grid-tile-content.img-iwanthue:before {
+  background-image: url('../res/iwanthue.png');
+}
+.tools-grid .grid-tile-content.img-tcat:before {
+  background-image: url('../res/tcat.png');
+}
+.tools-grid .grid-tile-content.img-csvrinserepeat:before {
+  background-image: url('../res/csvrinserepeat.png');
+}
